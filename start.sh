@@ -38,7 +38,7 @@ apt update && apt upgrade -y
 if ! command -v node &> /dev/null
 then
     echo "Node.js LTS not found. Installing..."
-    apt install nodejs-lts || { echo "Failed to install Node.js LTS" ; exit 1; }
+    pkg install nodejs-lts || { echo "Failed to install Node.js LTS" ; exit 1; }
 else
     echo "Node.js LTS already installed"
 fi
